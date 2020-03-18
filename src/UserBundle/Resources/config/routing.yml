@@ -1,0 +1,7 @@
+user_homepage:
+    path:     /
+    defaults: { _controller: UserBundle:Default:index }
+admin_homepage:
+    path:     /admin
+    defaults: { _controller: UserBundle:Default:admin }
+
